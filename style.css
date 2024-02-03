@@ -257,7 +257,7 @@ img {
   width: 145px;
   align-items: center;
   font-size: 13px;
-  min-height: 200px;
+  min-height: 90px;
   /* padding-left: 0.6rem; */
   /* background-color: #febd68; */
 }
@@ -383,7 +383,7 @@ img {
 }
 .text {
   color: black;
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-weight: 520;
 }
 .text1 {
