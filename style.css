@@ -7,10 +7,12 @@
 .navbar {
   background-color: #0f1111;
   height: 60px;
+  width: 1455px;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 .navlogo {
   margin-left: 3px;
@@ -33,13 +35,15 @@ img {
   border: 1.5px solid transparent;
 }
 .border:hover {
-  border: 1.5px solid white;
+  border: 1.5px solid #c0c0c0;
+  border-radius: 2px;
   cursor: pointer;
 }
 .navaddress {
   height: 40px;
-
-  margin-top: 0.4rem;
+  margin-top: 0.2rem;
+  padding-right: 3.5px;
+  padding-left: 2px;
 }
 .navlocicon {
   display: flex;
@@ -56,10 +60,12 @@ img {
   font-size: 1rem;
 }
 .searchbox {
+  /* margin-top: 20px; */
   display: flex;
   height: 45px;
   width: 850px;
   align-items: center;
+  border: border-box;
   margin-left: 0.8rem;
 }
 #longest {
@@ -67,6 +73,9 @@ img {
   font-size: 1rem;
   border: none;
   padding-left: 8px;
+}
+#longest:focus {
+  outline: none;
 }
 .same {
   height: 47px;
@@ -161,11 +170,15 @@ img {
   margin-top: 0.8rem;
 }
 .panel {
-  height: 40px;
+  /* margin-top: 80px; */
+  padding-top: 60px;
+  height: 45px;
   background-color: #222f3d;
   color: #ffffff;
   display: flex;
+  /* padding: 10px 50px; */
   border: none;
+  /* padding: 20px 20px; */
 }
 .first {
   height: 37px;
@@ -656,4 +669,8 @@ li:hover {
 }
 #underlinehover:hover {
   text-decoration: underline;
+}
+.feesBorder {
+  border: 4px solid orange;
+  border-radius: 10px;
 }
